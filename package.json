@@ -1,0 +1,25 @@
+{
+  "name": "baidu-translate-service",
+  "version": "1.0.0",
+  "description": "BaiDu Universal translation API access document",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-kang/baidu-translate-service.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "baidu-translate",
+    "baidu-translate-service",
+    "translate-service"
+  ],
+  "author": "mu-kang",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.11",
+    "querystring": "^0.2.1"
+  }
+}
+
