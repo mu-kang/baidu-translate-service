@@ -1,8 +1,6 @@
 # baidu-translate-service
 
-
-This component library is applicable to the Nodejs server and obtains translation results through the Baidu Translation API
-
+该库通过封装了百度翻译的API信息，支持浏览器，客户端，nodejs调用百度翻译接口，欢迎大家使用，记得[start](https://github.com/mu-kang/baidu-translate-service.git)
 
 ## parameter
 
@@ -19,10 +17,22 @@ action|	integer|	否	|判断是否需要使用自定义术语干预API|	1-是，
 
 ## Response
 
-[Reference link](https://fanyi-api.baidu.com/product/113)
+[参考官方文档链接](https://fanyi-api.baidu.com/product/113)
 
 
 ## Demo
+
+>Browsers
+
+```html
+<script src="./lib/baiduTranslateService.js"></script>
+```
+
+>Nodejs
+
+```bash
+npm install baidu-translate-service
+```
 
 ```javascript
 var baiduTranslateService = require("baidu-translate-service");
@@ -38,3 +48,4 @@ baiduTranslateService({
 });
 
 ```
+

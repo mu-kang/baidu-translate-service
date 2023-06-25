@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "sourceMap": false,
+    "declaration": true,
+    "allowUmdGlobalAccess": false,
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es5", "es6", "dom"],
+    "moduleResolution":"Node"
+  },
+  "include": ["src/**/*"]
+}
+
