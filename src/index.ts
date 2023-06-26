@@ -70,4 +70,4 @@ function BaiduTranslateService(options: OptionsType): Promise<Response> {
   });
 }
 export default BaiduTranslateService;
-
+module.exports = BaiduTranslateService;
