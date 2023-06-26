@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "target": "es5",
     "sourceMap": false,
     "declaration": true,
