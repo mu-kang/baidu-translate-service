@@ -1,6 +1,6 @@
 {
   "name": "baidu-translate-service",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "BaiDu Universal translation API access document",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,6 +17,11 @@
       }
     }
   },
+  "files": [
+    "lib",
+    "package.json",
+    "*.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mu-kang/baidu-translate-service.git"
